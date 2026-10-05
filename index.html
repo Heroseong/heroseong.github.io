@@ -1,1189 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Heroseong | Hydraulic Press Manufacturer</title>
-
-<meta name="description"
-content="Heroseong is a hydraulic press manufacturer providing 50T–800T hydraulic presses for powder pressing, ceramics, alumina, zirconia, metal forming, tube forming and customized applications.">
-
+<title>Heroseong | Hydraulic Press Manufacturer | 50T–800T</title>
+<meta name="description" content="Heroseong is a hydraulic press manufacturer providing 50T–800T hydraulic press solutions for powder pressing, ceramics, metal forming, tube forming and customized industrial applications.">
 <style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-html{
-    scroll-behavior:smooth;
-}
-
-body{
-    font-family:Arial,Helvetica,sans-serif;
-    color:#222;
-    background:#fff;
-    line-height:1.6;
-}
-
-:root{
-    --red:#c8102e;
-    --dark:#171717;
-    --gray:#666;
-    --light:#f5f5f5;
-    --border:#e5e5e5;
-    --white:#fff;
-}
-
-.container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-}
-
-/* HEADER */
-
-header{
-    background:#fff;
-    border-bottom:1px solid var(--border);
-    position:sticky;
-    top:0;
-    z-index:1000;
-}
-
-.navbar{
-    height:78px;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-}
-
-.logo{
-    font-size:28px;
-    font-weight:800;
-    color:var(--red);
-    letter-spacing:1px;
-}
-
-.logo span{
-    color:#222;
-}
-
-nav{
-    display:flex;
-    align-items:center;
-    gap:30px;
-}
-
-nav a{
-    text-decoration:none;
-    color:#222;
-    font-size:15px;
-    font-weight:600;
-}
-
-nav a:hover{
-    color:var(--red);
-}
-
-.lang-btn{
-    border:1px solid var(--red);
-    background:#fff;
-    color:var(--red);
-    padding:8px 16px;
-    border-radius:4px;
-    cursor:pointer;
-    font-weight:bold;
-}
-
-.lang-btn:hover{
-    background:var(--red);
-    color:#fff;
-}
-
-/* HERO */
-
-.hero{
-    min-height:650px;
-    background:
-    linear-gradient(rgba(20,20,20,.72),rgba(20,20,20,.72)),
-    url("https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1800&q=80")
-    center/cover;
-
-    display:flex;
-    align-items:center;
-    color:#fff;
-}
-
-.hero-content{
-    max-width:850px;
-}
-
-.hero-label{
-    color:#ff334f;
-    font-weight:bold;
-    letter-spacing:3px;
-    margin-bottom:15px;
-}
-
-.hero h1{
-    font-size:58px;
-    line-height:1.1;
-    margin-bottom:25px;
-}
-
-.hero h1 span{
-    color:#ff334f;
-}
-
-.hero p{
-    font-size:21px;
-    max-width:750px;
-    margin-bottom:35px;
-    color:#eee;
-}
-
-.buttons{
-    display:flex;
-    gap:15px;
-    flex-wrap:wrap;
-}
-
-.btn{
-    display:inline-block;
-    padding:14px 28px;
-    text-decoration:none;
-    font-weight:bold;
-    border-radius:4px;
-    transition:.2s;
-}
-
-.btn-red{
-    background:var(--red);
-    color:#fff;
-}
-
-.btn-red:hover{
-    background:#a90d26;
-}
-
-.btn-white{
-    background:#fff;
-    color:#222;
-}
-
-.btn-white:hover{
-    background:#eee;
-}
-
-/* SECTION */
-
-section{
-    padding:90px 0;
-}
-
-.section-title{
-    text-align:center;
-    margin-bottom:15px;
-    font-size:38px;
-}
-
-.section-title span{
-    color:var(--red);
-}
-
-.section-subtitle{
-    max-width:760px;
-    margin:0 auto 55px;
-    text-align:center;
-    color:var(--gray);
-}
-
-/* WHY */
-
-.why{
-    background:#fff;
-}
-
-.cards{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
-}
-
-.card{
-    border:1px solid var(--border);
-    padding:35px;
-    background:#fff;
-    transition:.25s;
-}
-
-.card:hover{
-    transform:translateY(-5px);
-    border-color:var(--red);
-}
-
-.card-number{
-    color:var(--red);
-    font-size:30px;
-    font-weight:bold;
-    margin-bottom:15px;
-}
-
-.card h3{
-    font-size:22px;
-    margin-bottom:12px;
-}
-
-.card p{
-    color:var(--gray);
-}
-
-/* PRODUCTS */
-
-.products{
-    background:var(--light);
-}
-
-.product-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
-}
-
-.product{
-    background:#fff;
-    border:1px solid var(--border);
-    padding:30px;
-    transition:.25s;
-}
-
-.product:hover{
-    border-color:var(--red);
-    transform:translateY(-5px);
-}
-
-.product h3{
-    margin-bottom:10px;
-    font-size:21px;
-}
-
-.product p{
-    color:var(--gray);
-}
-
-/* APPLICATIONS */
-
-.application-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:20px;
-}
-
-.application{
-    min-height:150px;
-    padding:30px;
-    border-left:5px solid var(--red);
-    background:#f8f8f8;
-}
-
-.application h3{
-    margin-bottom:8px;
-}
-
-.application p{
-    color:var(--gray);
-    font-size:14px;
-}
-
-/* FORMING */
-
-.forming{
-    background:var(--dark);
-    color:#fff;
-}
-
-.forming .section-subtitle{
-    color:#ccc;
-}
-
-.forming-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:15px;
-}
-
-.forming-item{
-    border:1px solid #444;
-    padding:25px;
-    text-align:center;
-}
-
-.forming-item:hover{
-    border-color:var(--red);
-}
-
-.forming-item strong{
-    display:block;
-    color:#fff;
-    font-size:17px;
-}
-
-/* ABOUT */
-
-.about{
-    background:#fff;
-}
-
-.about-content{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:60px;
-    align-items:center;
-}
-
-.about-text h2{
-    font-size:38px;
-    margin-bottom:20px;
-}
-
-.about-text h2 span{
-    color:var(--red);
-}
-
-.about-text p{
-    color:var(--gray);
-    margin-bottom:18px;
-}
-
-.about-box{
-    background:var(--dark);
-    color:#fff;
-    padding:45px;
-    border-top:6px solid var(--red);
-}
-
-.about-box h3{
-    font-size:28px;
-    margin-bottom:20px;
-}
-
-.about-box p{
-    color:#ddd;
-}
-
-/* CTA */
-
-.cta{
-    background:var(--red);
-    color:#fff;
-    text-align:center;
-}
-
-.cta h2{
-    font-size:42px;
-    margin-bottom:15px;
-}
-
-.cta p{
-    margin-bottom:30px;
-    font-size:18px;
-}
-
-/* CONTACT */
-
-.contact{
-    background:#f5f5f5;
-}
-
-.contact-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:50px;
-}
-
-.contact-info h3{
-    font-size:28px;
-    margin-bottom:20px;
-}
-
-.contact-info p{
-    margin-bottom:15px;
-    color:var(--gray);
-}
-
-.contact-info a{
-    color:var(--red);
-    text-decoration:none;
-    font-weight:bold;
-}
-
-/* FOOTER */
-
-footer{
-    background:#111;
-    color:#aaa;
-    text-align:center;
-    padding:30px;
-}
-
-footer strong{
-    color:#fff;
-}
-
-/* MOBILE */
-
+:root{--red:#c92727;--dark:#182333;--gray:#667085;--light:#f7f8fa;--line:#e6e8ec}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--dark);background:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1180px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid #eee}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.logo{height:58px;width:auto}
+nav{display:flex;gap:28px;align-items:center}
+nav a{font-size:14px;font-weight:600}
+nav a:hover{color:var(--red)}
+.lang{border:1px solid var(--red);border-radius:22px;padding:7px 15px;color:var(--red);background:#fff;font-weight:700;cursor:pointer}
+.hero{min-height:570px;background-image:linear-gradient(90deg,rgba(255,255,255,.94) 0%,rgba(255,255,255,.78) 34%,rgba(255,255,255,.12) 66%,rgba(255,255,255,0) 100%),url("hero.png");background-size:cover;background-position:center;display:flex;align-items:center}
+.hero-copy{max-width:590px;padding:65px 0}
+.kicker{font-size:14px;letter-spacing:4px;font-weight:700;color:#455468;margin-bottom:12px}
+h1{font-size:48px;line-height:1.1;margin:0 0 20px;font-weight:800}
+h1 span,.red{color:var(--red)}
+.hero p{font-size:18px;color:#465466;max-width:560px}
+.buttons{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 25px;border-radius:5px;font-weight:700}
+.btn-red{background:var(--red);color:#fff}
+.btn-outline{border:1px solid var(--red);color:var(--red);background:#fff}
+.features{background:#fff;border-bottom:1px solid var(--line)}
+.feature-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.feature{padding:28px 25px;border-right:1px solid var(--line)}
+.feature:last-child{border-right:0}
+.feature h3{margin:0 0 6px;font-size:17px}
+.feature p{margin:0;color:var(--gray);font-size:14px}
+section{padding:78px 0}
+.section-kicker{font-size:12px;letter-spacing:3px;color:var(--red);font-weight:800}
+h2{font-size:38px;line-height:1.15;margin:8px 0 14px}
+.section-intro{color:var(--gray);max-width:700px}
+.products{background:#f8f9fb}
+.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:35px}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:28px;box-shadow:0 5px 18px rgba(20,30,40,.04)}
+.card h3{margin:0 0 8px;font-size:22px}
+.card p{margin:0;color:var(--gray);font-size:15px}
+.badge{display:inline-block;background:#fff0f0;color:var(--red);padding:4px 9px;border-radius:12px;font-size:12px;font-weight:700;margin-bottom:12px}
+.apps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px}
+.app{border:1px solid var(--line);padding:25px;border-radius:10px;background:#fff}
+.app h3{margin:0 0 8px}
+.app p{margin:0;color:var(--gray);font-size:14px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.about-box{background:var(--light);padding:35px;border-left:5px solid var(--red)}
+.cta{background:var(--dark);color:#fff;text-align:center}
+.cta p{color:#cbd2dc}
+footer{background:#101722;color:#bfc7d2;padding:35px 0}
+.footer-flex{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
+small{color:#8993a2}
 @media(max-width:900px){
-
-    nav{
-        gap:12px;
-    }
-
-    nav a{
-        display:none;
-    }
-
-    .hero{
-        min-height:600px;
-    }
-
-    .hero h1{
-        font-size:42px;
-    }
-
-    .hero p{
-        font-size:18px;
-    }
-
-    .cards,
-    .product-grid,
-    .application-grid,
-    .about-content,
-    .contact-grid{
-        grid-template-columns:1fr;
-    }
-
-    .forming-grid{
-        grid-template-columns:repeat(2,1fr);
-    }
-
+ nav{display:none}.hero{min-height:650px;background-position:58% center}
+ .hero-copy{padding:45px 0;max-width:520px}
+ h1{font-size:38px}
+ .feature-grid,.product-grid,.apps{grid-template-columns:1fr 1fr}
+ .about{grid-template-columns:1fr}
 }
-
+@media(max-width:600px){
+ .nav{height:68px}.logo{height:48px}
+ .hero{background-position:63% center}
+ .hero-copy{padding:35px 0}
+ h1{font-size:32px}
+ .hero p{font-size:16px}
+ .feature-grid,.product-grid,.apps{grid-template-columns:1fr}
+ .feature{border-right:0;border-bottom:1px solid var(--line)}
+ section{padding:58px 0}
+ h2{font-size:31px}
+}
 </style>
-
 </head>
-
-
 <body>
 
-
-<!-- HEADER -->
-
 <header>
-
-<div class="container navbar">
-
-<div class="logo">
-HEROSONG<span>.</span>
-</div>
-
-<nav>
-
-<a href="#home" data-en="Home" data-zh="首页">Home</a>
-
-<a href="#products" data-en="Products" data-zh="产品">Products</a>
-
-<a href="#applications" data-en="Applications" data-zh="应用领域">Applications</a>
-
-<a href="#about" data-en="About Us" data-zh="关于我们">About Us</a>
-
-<a href="#contact" data-en="Contact" data-zh="联系我们">Contact</a>
-
-<button class="lang-btn" onclick="toggleLanguage()" id="langBtn">
-中文
-</button>
-
-</nav>
-
-</div>
-
+  <div class="container nav">
+    <a href="#home"><img class="logo" src="logo.png" alt="Hao Jie Sheng Technology"></a>
+    <nav>
+      <a href="#home" data-en="Home" data-zh="首页">Home</a>
+      <a href="#products" data-en="Products" data-zh="产品">Products</a>
+      <a href="#applications" data-en="Applications" data-zh="应用">Applications</a>
+      <a href="#about" data-en="About Us" data-zh="关于我们">About Us</a>
+      <a href="#contact" data-en="Contact" data-zh="联系我们">Contact</a>
+    </nav>
+    <button class="lang" id="langBtn">中文</button>
+  </div>
 </header>
 
-
-<!-- HERO -->
-
+<main>
 <section class="hero" id="home">
-
-<div class="container hero-content">
-
-<div class="hero-label"
-data-en="HYDRAULIC PRESS MANUFACTURER"
-data-zh="液压机制造商">
-HYDRAULIC PRESS MANUFACTURER
-</div>
-
-<h1
-data-en="Your Product. Your Process. Our <span>Forming Solution.</span>"
-data-zh="您的产品 · 您的工艺 · 我们的<span>成型解决方案</span>">
-Your Product. Your Process. Our <span>Forming Solution.</span>
-</h1>
-
-<p
-data-en="50T–800T hydraulic presses for powder pressing, ceramics, metal forming, tube forming and customized industrial applications."
-data-zh="50T–800T液压机，适用于粉末压制、陶瓷成型、金属成型、管材成型及各种定制工业应用。">
-50T–800T hydraulic presses for powder pressing, ceramics, metal forming, tube forming and customized industrial applications.
-</p>
-
-<div class="buttons">
-
-<a href="#products" class="btn btn-red"
-data-en="VIEW PRODUCTS"
-data-zh="查看产品">
-VIEW PRODUCTS
-</a>
-
-<a href="#contact" class="btn btn-white"
-data-en="GET A QUOTE"
-data-zh="获取报价">
-GET A QUOTE
-</a>
-
-</div>
-
-</div>
-
+  <div class="container hero-copy">
+    <div class="kicker" data-en="HYDRAULIC PRESS MANUFACTURER" data-zh="液压机制造商">HYDRAULIC PRESS MANUFACTURER</div>
+    <h1 data-en="Your Product. Your Process.<br><span>Our Forming Solution.</span>" data-zh="您的产品 · 您的工艺<br><span>我们的成型方案</span>">Your Product. Your Process.<br><span>Our Forming Solution.</span></h1>
+    <p data-en="50T–800T hydraulic presses for powder pressing, ceramics, metal forming, tube forming and customized industrial applications."
+       data-zh="提供50T–800T液压机，适用于粉末压制、陶瓷成型、金属成型、管材成型及非标定制工业应用。">50T–800T hydraulic presses for powder pressing, ceramics, metal forming, tube forming and customized industrial applications.</p>
+    <div class="buttons">
+      <a class="btn btn-red" href="#products" data-en="View Products →" data-zh="查看产品 →">View Products →</a>
+      <a class="btn btn-outline" href="mailto:gn001dben@gmail.com" data-en="Get a Quote →" data-zh="获取报价 →">Get a Quote →</a>
+    </div>
+  </div>
 </section>
 
-
-<!-- WHY -->
-
-<section class="why">
-
-<div class="container">
-
-<h2 class="section-title"
-data-en="Why Choose <span>Heroseong?</span>"
-data-zh="为什么选择<span>豪杰晟？</span>">
-Why Choose <span>Heroseong?</span>
-</h2>
-
-<p class="section-subtitle"
-data-en="We focus on practical forming solutions that combine production efficiency, reasonable tooling investment and flexible customization."
-data-zh="我们专注于实用的成型解决方案，在生产效率、合理的模具投入和灵活定制之间取得平衡。">
-We focus on practical forming solutions that combine production efficiency, reasonable tooling investment and flexible customization.
-</p>
-
-
-<div class="cards">
-
-
-<div class="card">
-
-<div class="card-number">01</div>
-
-<h3
-data-en="High Production Efficiency"
-data-zh="高生产效率">
-High Production Efficiency
-</h3>
-
-<p
-data-en="Hydraulic pressing solutions designed for efficient production and high output."
-data-zh="针对高效生产和较高产能需求设计的液压成型解决方案。">
-Hydraulic pressing solutions designed for efficient production and high output.
-</p>
-
-</div>
-
-
-<div class="card">
-
-<div class="card-number">02</div>
-
-<h3
-data-en="Lower Tooling Investment"
-data-zh="较低的模具投入">
-Lower Tooling Investment
-</h3>
-
-<p
-data-en="Our 50T–800T range provides practical options for small and medium-sized products and new product development."
-data-zh="50T–800T系列为中小型产品及新产品开发提供更加灵活、实用的设备选择。">
-Our 50T–800T range provides practical options for small and medium-sized products and new product development.
-</p>
-
-</div>
-
-
-<div class="card">
-
-<div class="card-number">03</div>
-
-<h3
-data-en="Customized Solutions"
-data-zh="定制化解决方案">
-Customized Solutions
-</h3>
-
-<p
-data-en="Experimental, standard and non-standard hydraulic equipment developed around your product and process."
-data-zh="根据客户产品和工艺需求，提供实验型、标准型及非标定制液压设备。">
-Experimental, standard and non-standard hydraulic equipment developed around your product and process.
-</p>
-
-</div>
-
-
-</div>
-
-</div>
-
+<section class="features">
+ <div class="container feature-grid">
+  <div class="feature"><h3 data-en="High Efficiency" data-zh="高生产效率">High Efficiency</h3><p data-en="High-speed pressing and high production capacity." data-zh="高速压制，满足高效率生产需求。">High-speed pressing and high production capacity.</p></div>
+  <div class="feature"><h3 data-en="Lower Tooling Cost" data-zh="更低模具投入">Lower Tooling Cost</h3><p data-en="Small and medium-sized presses can reduce mold and tooling investment." data-zh="中小型液压机可降低模具及工装投入。">Small and medium-sized presses can reduce mold and tooling investment.</p></div>
+  <div class="feature"><h3 data-en="Custom Solutions" data-zh="定制成型方案">Custom Solutions</h3><p data-en="Experimental, standard and non-standard equipment for your specific needs." data-zh="实验型、标准型及非标设备，围绕您的产品需求定制。">Experimental, standard and non-standard equipment for your specific needs.</p></div>
+  <div class="feature"><h3 data-en="Professional Manufacturer" data-zh="专业设备制造商">Professional Manufacturer</h3><p data-en="Quality equipment, practical forming experience and long-term support." data-zh="专业设备、实际成型经验及长期技术支持。">Quality equipment, practical forming experience and long-term support.</p></div>
+ </div>
 </section>
-
-
-<!-- PRODUCTS -->
 
 <section class="products" id="products">
+ <div class="container">
+  <div class="section-kicker" data-en="HYDRAULIC PRESS SOLUTIONS" data-zh="液压机解决方案">HYDRAULIC PRESS SOLUTIONS</div>
+  <h2 data-en="50T–800T Hydraulic Presses" data-zh="50T–800T液压机系列">50T–800T Hydraulic Presses</h2>
+  <p class="section-intro" data-en="Different tonnage ranges for product development, small-batch production and industrial manufacturing."
+     data-zh="覆盖产品开发、打样测试、小批量生产及工业化生产的不同吨位需求。">Different tonnage ranges for product development, small-batch production and industrial manufacturing.</p>
 
-<div class="container">
+  <div class="product-grid">
+   <div class="card"><span class="badge" data-en="Experimental" data-zh="实验型">Experimental</span><h3>50T</h3><p data-en="Experimental hydraulic press for laboratory use, product development, sample making and forming tests." data-zh="实验型液压机，主要用于实验室、产品研发、打样及成型测试。">Experimental hydraulic press for laboratory use, product development, sample making and forming tests.</p></div>
 
-<h2 class="section-title"
-data-en="Hydraulic Press <span>Solutions</span>"
-data-zh="液压机<span>解决方案</span>">
-Hydraulic Press <span>Solutions</span>
-</h2>
+   <div class="card"><span class="badge" data-en="Standard" data-zh="标准型">Standard</span><h3>150T</h3><p data-en="Small and medium-sized hydraulic press for efficient pressing and flexible production. Lower mold and tooling investment for a wide range of applications." data-zh="中小型液压机，适用于高效压制和灵活生产，模具及工装投入较低，可覆盖多种应用。">Small and medium-sized hydraulic press for efficient pressing and flexible production. Lower mold and tooling investment for a wide range of applications.</p></div>
 
-<p class="section-subtitle"
-data-en="From compact presses to heavy-duty equipment, Heroseong provides hydraulic forming solutions from 50T to 800T."
-data-zh="从紧凑型设备到重型液压设备，豪杰晟提供50T至800T的液压成型解决方案。">
-From compact presses to heavy-duty equipment, Heroseong provides hydraulic forming solutions from 50T to 800T.
-</p>
+   <div class="card"><span class="badge" data-en="Production" data-zh="生产型">Production</span><h3>200T</h3><p data-en="Versatile hydraulic press for ceramic, powder pressing, metal forming and other industrial applications." data-zh="多用途液压机，适用于陶瓷、粉末压制、金属成型及其他工业应用。">Versatile hydraulic press for ceramic, powder pressing, metal forming and other industrial applications.</p></div>
 
+   <div class="card"><span class="badge" data-en="Medium / Large" data-zh="中大型">Medium / Large</span><h3>300T–400T</h3><p data-en="Medium-to-large hydraulic press for higher forming force, larger products and higher production requirements." data-zh="中大型液压机，适用于更高成型压力、更大产品及更高产能需求。">Medium-to-large hydraulic press for higher forming force, larger products and higher production requirements.</p></div>
 
-<div class="product-grid">
+   <div class="card"><span class="badge" data-en="Heavy Duty" data-zh="重型">Heavy Duty</span><h3>500T</h3><p data-en="Heavy-duty hydraulic press for large forming applications and demanding production processes." data-zh="重型液压机，适用于大型成型产品及高要求生产工艺。">Heavy-duty hydraulic press for large forming applications and demanding production processes.</p></div>
 
-
-<div class="product">
-
-<h3>50T Hydraulic Press</h3>
-
-<p
-data-en="Compact solution for small products, testing and new product development."
-data-zh="适用于小型产品、试制及新产品开发的紧凑型液压机。">
-Compact solution for small products, testing and new product development.
-</p>
-
-</div>
-
-
-<div class="product">
-
-<h3>100T Hydraulic Press</h3>
-
-<p
-data-en="Flexible equipment for various powder and forming applications."
-data-zh="适用于多种粉末压制及成型应用的灵活型设备。">
-Flexible equipment for various powder and forming applications.
-</p>
-
-</div>
-
-
-<div class="product">
-
-<h3>200T Hydraulic Press</h3>
-
-<p
-data-en="Suitable for medium-sized products and industrial production."
-data-zh="适用于中型产品及工业化生产。">
-Suitable for medium-sized products and industrial production.
-</p>
-
-</div>
-
-
-<div class="product">
-
-<h3>315T Hydraulic Press</h3>
-
-<p
-data-en="High-force solution for demanding powder and forming applications."
-data-zh="适用于高压力粉末压制及成型应用。">
-High-force solution for demanding powder and forming applications.
-</p>
-
-</div>
-
-
-<div class="product">
-
-<h3>500T Hydraulic Press</h3>
-
-<p
-data-en="Heavy-duty hydraulic forming equipment for industrial production."
-data-zh="适用于工业生产的重型液压成型设备。">
-Heavy-duty hydraulic forming equipment for industrial production.
-</p>
-
-</div>
-
-
-<div class="product">
-
-<h3>800T Hydraulic Press</h3>
-
-<p
-data-en="High-force hydraulic press for large and demanding applications."
-data-zh="适用于大型及高压力成型应用的液压机。">
-High-force hydraulic press for large and demanding applications.
-</p>
-
-</div>
-
-
-</div>
-
-</div>
-
+   <div class="card"><span class="badge" data-en="High Force" data-zh="大吨位">High Force</span><h3>800T</h3><p data-en="High-force hydraulic press for large-scale forming and customized industrial applications." data-zh="大吨位液压机，适用于大型产品成型及非标定制工业应用。">High-force hydraulic press for large-scale forming and customized industrial applications.</p></div>
+  </div>
+ </div>
 </section>
-
-
-<!-- APPLICATIONS -->
 
 <section id="applications">
-
-<div class="container">
-
-<h2 class="section-title"
-data-en="Industries & <span>Applications</span>"
-data-zh="行业与<span>应用领域</span>">
-Industries & <span>Applications</span>
-</h2>
-
-<p class="section-subtitle"
-data-en="Our hydraulic presses are used across ceramic, advanced materials, powder metallurgy, construction materials and metal forming applications."
-data-zh="我们的液压设备广泛应用于陶瓷、新型材料、粉末冶金、建筑材料及金属成型等领域。">
-Our hydraulic presses are used across ceramic, advanced materials, powder metallurgy, construction materials and metal forming applications.
-</p>
-
-
-<div class="application-grid">
-
-
-<div class="application">
-
-<h3
-data-en="Ceramic & Tile Forming"
-data-zh="陶瓷与瓷砖成型">
-Ceramic & Tile Forming
-</h3>
-
-<p
-data-en="Ceramic tiles, mosaics, swimming pool tiles, roof tiles and special-shaped ceramic products."
-data-zh="陶瓷墙地砖、马赛克、泳池砖、屋面瓦及各种陶瓷异形产品。">
-Ceramic tiles, mosaics, swimming pool tiles, roof tiles and special-shaped ceramic products.
-</p>
-
-</div>
-
-
-<div class="application">
-
-<h3
-data-en="Advanced & Technical Ceramics"
-data-zh="先进陶瓷与技术陶瓷">
-Advanced & Technical Ceramics
-</h3>
-
-<p
-data-en="Alumina, 99% alumina ceramics, zirconia, electronic ceramics and insulating components."
-data-zh="氧化铝、99瓷、氧化锆、电子陶瓷及绝缘陶瓷部件。">
-Alumina, 99% alumina ceramics, zirconia, electronic ceramics and insulating components.
-</p>
-
-</div>
-
-
-<div class="application">
-
-<h3
-data-en="Powder Metallurgy"
-data-zh="粉末冶金">
-Powder Metallurgy
-</h3>
-
-<p
-data-en="Metal gears and other powder-formed metal components."
-data-zh="金属齿轮及其他粉末压制金属零部件。">
-Metal gears and other powder-formed metal components.
-</p>
-
-</div>
-
-
-<div class="application">
-
-<h3
-data-en="Refractory & Construction"
-data-zh="耐火材料与建筑材料">
-Refractory & Construction
-</h3>
-
-<p
-data-en="Refractory bricks, cement products and other powder-based construction materials."
-data-zh="耐火砖、水泥制品及其他粉末类建筑材料。">
-Refractory bricks, cement products and other powder-based construction materials.
-</p>
-
-</div>
-
-
-<div class="application">
-
-<h3
-data-en="Ceramic Cookware & Tableware"
-data-zh="陶瓷厨具与餐具">
-Ceramic Cookware & Tableware
-</h3>
-
-<p
-data-en="Pizza stones, ceramic baking trays, ceramic oven products and coasters."
-data-zh="披萨石、陶瓷烤盘、陶瓷烤箱产品及陶瓷杯垫。">
-Pizza stones, ceramic baking trays, ceramic oven products and coasters.
-</p>
-
-</div>
-
-
-<div class="application">
-
-<h3
-data-en="Metal & Tube Forming"
-data-zh="金属与管材成型">
-Metal & Tube Forming
-</h3>
-
-<p
-data-en="Deep drawing, hydraulic forming, tube bulging, hydroforming and customized metal forming."
-data-zh="深拉伸、液压成型、管材胀形、水胀成型及定制金属成型。">
-Deep drawing, hydraulic forming, tube bulging, hydroforming and customized metal forming.
-</p>
-
-</div>
-
-
-</div>
-
-</div>
-
+ <div class="container">
+  <div class="section-kicker" data-en="INDUSTRIES & APPLICATIONS" data-zh="行业与应用">INDUSTRIES & APPLICATIONS</div>
+  <h2 data-en="What Can We <span class='red'>Form?</span>" data-zh="我们可以成型什么？">What Can We <span class="red">Form?</span></h2>
+  <p class="section-intro" data-en="Hydraulic forming solutions for a wide range of materials, products and customized applications."
+     data-zh="为不同材料、产品及特殊工艺应用提供液压成型解决方案。">Hydraulic forming solutions for a wide range of materials, products and customized applications.</p>
+  <div class="apps">
+   <div class="app"><h3 data-en="Ceramic & Tile Forming" data-zh="陶瓷与瓷砖成型">Ceramic & Tile Forming</h3><p data-en="Tiles, mosaics, swimming pool tiles, roof tiles and special-shaped ceramic products." data-zh="瓷砖、马赛克、泳池砖、西瓦及特殊异形陶瓷产品。">Tiles, mosaics, swimming pool tiles, roof tiles and special-shaped ceramic products.</p></div>
+   <div class="app"><h3 data-en="Advanced & Technical Ceramics" data-zh="先进技术陶瓷">Advanced & Technical Ceramics</h3><p data-en="Alumina, zirconia, electronic ceramics, insulating parts and other technical ceramic components." data-zh="氧化铝、氧化锆、电子陶瓷、绝缘件及其他技术陶瓷零部件。">Alumina, zirconia, electronic ceramics, insulating parts and other technical ceramic components.</p></div>
+   <div class="app"><h3 data-en="Powder Metallurgy" data-zh="粉末冶金">Powder Metallurgy</h3><p data-en="Powder-formed metal gears and other precision metal components." data-zh="金属齿轮及其他粉末压制精密金属零件。">Powder-formed metal gears and other precision metal components.</p></div>
+   <div class="app"><h3 data-en="Refractory & Construction" data-zh="耐火与建材">Refractory & Construction</h3><p data-en="Refractory bricks, cement products and other powder-based construction materials." data-zh="耐火砖、水泥制品及其他粉末类建材产品。">Refractory bricks, cement products and other powder-based construction materials.</p></div>
+   <div class="app"><h3 data-en="Ceramic Cookware & Tableware" data-zh="陶瓷厨具与餐具">Ceramic Cookware & Tableware</h3><p data-en="Pizza stones, ceramic baking trays, ceramic oven products and coasters." data-zh="披萨石、陶瓷烤盘、陶瓷烤箱产品及杯垫等。">Pizza stones, ceramic baking trays, ceramic oven products and coasters.</p></div>
+   <div class="app"><h3 data-en="Metal & Tube Forming" data-zh="金属与管材成型">Metal & Tube Forming</h3><p data-en="Stamping, deep drawing, tube bulging, hydroforming and customized metal forming." data-zh="冲压、深拉伸、管材胀形、液压成形及非标金属成型。">Stamping, deep drawing, tube bulging, hydroforming and customized metal forming.</p></div>
+  </div>
+ </div>
 </section>
 
-
-<!-- WHAT WE CAN FORM -->
-
-<section class="forming">
-
-<div class="container">
-
-<h2 class="section-title"
-data-en="What Can We <span>Form?</span>"
-data-zh="我们可以<span>成型什么？</span>">
-What Can We <span>Form?</span>
-</h2>
-
-<p class="section-subtitle"
-data-en="Tell us what you want to manufacture. We can evaluate the forming process and recommend a suitable hydraulic press solution."
-data-zh="告诉我们您想生产什么产品，我们可以根据产品和工艺需求评估成型方案，并推荐合适的液压设备。">
-Tell us what you want to manufacture. We can evaluate the forming process and recommend a suitable hydraulic press solution.
-</p>
-
-
-<div class="forming-grid">
-
-
-<div class="forming-item">
-<strong>Ceramic Tiles</strong>
-<span>陶瓷砖</span>
-</div>
-
-<div class="forming-item">
-<strong>Alumina Parts</strong>
-<span>氧化铝制品</span>
-</div>
-
-<div class="forming-item">
-<strong>Zirconia</strong>
-<span>氧化锆</span>
-</div>
-
-<div class="forming-item">
-<strong>Metal Gears</strong>
-<span>金属齿轮</span>
-</div>
-
-<div class="forming-item">
-<strong>Pizza Stones</strong>
-<span>披萨石</span>
-</div>
-
-<div class="forming-item">
-<strong>Refractory Bricks</strong>
-<span>耐火砖</span>
-</div>
-
-<div class="forming-item">
-<strong>Tube Products</strong>
-<span>管材产品</span>
-</div>
-
-<div class="forming-item">
-<strong>Special-shaped Parts</strong>
-<span>异形产品</span>
-</div>
-
-
-</div>
-
-</div>
-
+<section id="about" class="products">
+ <div class="container about">
+  <div>
+   <div class="section-kicker" data-en="ABOUT HEROSONG" data-zh="关于豪杰晟">ABOUT HEROSONG</div>
+   <h2 data-en="Built Around Your Product." data-zh="围绕您的产品，打造成型方案。">Built Around Your Product.</h2>
+   <p class="section-intro" data-en="Foshan Hao Jie Sheng Technology Co., Ltd. develops and manufactures experimental, standard and customized hydraulic forming equipment for specialty process products."
+      data-zh="佛山市豪杰晟科技有限公司专注于实验型、标准型及非标定制液压成型设备，为特殊工艺产品提供设备与成型方案。">Foshan Hao Jie Sheng Technology Co., Ltd. develops and manufactures experimental, standard and customized hydraulic forming equipment for specialty process products.</p>
+  </div>
+  <div class="about-box">
+   <h3 data-en="From Product Development to Production" data-zh="从产品开发到生产">From Product Development to Production</h3>
+   <p data-en="Tell us what you need to form. We can help evaluate the forming process, suitable press capacity and equipment configuration."
+      data-zh="告诉我们您需要成型的产品，我们可以协助评估成型工艺、所需吨位及设备配置。">Tell us what you need to form. We can help evaluate the forming process, suitable press capacity and equipment configuration.</p>
+  </div>
+ </div>
 </section>
 
-
-<!-- ABOUT -->
-
-<section class="about" id="about">
-
-<div class="container about-content">
-
-
-<div class="about-text">
-
-<h2
-data-en="About <span>Heroseong</span>"
-data-zh="关于<span>豪杰晟</span>">
-About <span>Heroseong</span>
-</h2>
-
-<p
-data-en="Foshan Haojiesheng Technology Co., Ltd. (Heroseong) is a professional manufacturer of hydraulic forming equipment."
-data-zh="佛山市豪杰晟科技有限公司（Heroseong）是一家专业的液压成型设备制造商。">
-Foshan Haojiesheng Technology Co., Ltd. (Heroseong) is a professional manufacturer of hydraulic forming equipment.
-</p>
-
-<p
-data-en="We specialize in the development and production of experimental, standard and customized hydraulic equipment for different forming processes."
-data-zh="我们专注于实验型、标准型及定制型液压设备的研发与生产，为不同成型工艺提供设备解决方案。">
-We specialize in the development and production of experimental, standard and customized hydraulic equipment for different forming processes.
-</p>
-
-<p
-data-en="Our experience covers powder pressing, ceramics, advanced ceramics, powder metallurgy, metal forming, deep drawing, tube forming and other special applications."
-data-zh="我们的应用经验涵盖粉末压制、陶瓷、先进陶瓷、粉末冶金、金属成型、深拉伸、管材成型及其他特殊应用。">
-Our experience covers powder pressing, ceramics, advanced ceramics, powder metallurgy, metal forming, deep drawing, tube forming and other special applications.
-</p>
-
-</div>
-
-
-<div class="about-box">
-
-<h3
-data-en="Built Around Your Product"
-data-zh="围绕您的产品提供设备">
-Built Around Your Product
-</h3>
-
-<p
-data-en="Whether you are producing an established product or developing a new one, our team can work with your product requirements and production goals to develop a practical hydraulic forming solution."
-data-zh="无论您是在生产成熟产品，还是正在开发新产品，我们都可以根据您的产品要求和生产目标，为您提供实用的液压成型设备方案。">
-Whether you are producing an established product or developing a new one, our team can work with your product requirements and production goals to develop a practical hydraulic forming solution.
-</p>
-
-</div>
-
-
-</div>
-
+<section class="cta" id="contact">
+ <div class="container">
+  <h2 data-en="Have a Product to Form?" data-zh="您有需要成型的产品吗？">Have a Product to Form?</h2>
+  <p data-en="Send us your product photos, drawings or requirements. Let's discuss the right hydraulic press solution."
+     data-zh="欢迎发送产品图片、图纸或需求，与我们讨论合适的液压机解决方案。">Send us your product photos, drawings or requirements. Let's discuss the right hydraulic press solution.</p>
+  <div class="buttons" style="justify-content:center">
+   <a class="btn btn-red" href="mailto:gn001dben@gmail.com" data-en="Contact Ben →" data-zh="联系 Ben →">Contact Ben →</a>
+  </div>
+ </div>
 </section>
-
-
-<!-- CTA -->
-
-<section class="cta">
-
-<div class="container">
-
-<h2
-data-en="Have a Product to Form?"
-data-zh="您有产品需要成型？">
-Have a Product to Form?
-</h2>
-
-<p
-data-en="Send us your product drawing, material, dimensions or production requirements."
-data-zh="把您的产品图纸、材料、尺寸或生产要求发给我们。">
-Send us your product drawing, material, dimensions or production requirements.
-</p>
-
-<a href="mailto:gn001dben@gmail.com"
-class="btn btn-white"
-data-en="SEND YOUR INQUIRY"
-data-zh="发送询盘">
-SEND YOUR INQUIRY
-</a>
-
-</div>
-
-</section>
-
-
-<!-- CONTACT -->
-
-<section class="contact" id="contact">
-
-<div class="container">
-
-<h2 class="section-title"
-data-en="Contact <span>Heroseong</span>"
-data-zh="联系<span>豪杰晟</span>">
-Contact <span>Heroseong</span>
-</h2>
-
-<p class="section-subtitle"
-data-en="Let's discuss your product and find a suitable forming solution."
-data-zh="欢迎与我们沟通您的产品需求，共同寻找合适的成型解决方案。">
-Let's discuss your product and find a suitable forming solution.
-</p>
-
-
-<div class="contact-grid">
-
-
-<div class="contact-info">
-
-<h3
-data-en="Get in Touch"
-data-zh="联系我们">
-Get in Touch
-</h3>
-
-<p>
-<strong>Email:</strong><br>
-
-<a href="mailto:gn001dben@gmail.com">
-gn001dben@gmail.com
-</a>
-
-</p>
-
-<p>
-
-<strong
-data-en="Company:"
-data-zh="公司：">
-Company:
-</strong>
-
-<br>
-
-Foshan Haojiesheng Technology Co., Ltd.
-
-</p>
-
-<p>
-
-<strong
-data-en="Business:"
-data-zh="业务：">
-Business:
-</strong>
-
-<br>
-
-Hydraulic Presses · Forming Equipment · Customized Solutions
-
-</p>
-
-</div>
-
-
-<div class="contact-info">
-
-<h3
-data-en="Watch Our Equipment"
-data-zh="观看我们的设备">
-Watch Our Equipment
-</h3>
-
-<p
-data-en="See our hydraulic presses and equipment applications on Instagram."
-data-zh="欢迎通过 Instagram 查看我们的液压机及设备应用视频。">
-See our hydraulic presses and equipment applications on Instagram.
-</p>
-
-<a href="https://www.instagram.com/heroseong/reels/"
-target="_blank">
-
-Instagram / Heroseong Reels
-
-</a>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- FOOTER -->
+</main>
 
 <footer>
-
-<p>
-<strong>HEROSONG</strong>
-</p>
-
-<p>
-© 2026 Foshan Haojiesheng Technology Co., Ltd. All Rights Reserved.
-</p>
-
+ <div class="container footer-flex">
+  <div><strong>HAO JIE SHENG TECHNOLOGY</strong><br><small>Foshan Hao Jie Sheng Technology Co., Ltd.</small></div>
+  <div><small>Email: gn001dben@gmail.com</small><br><small>Instagram: @heroseong</small></div>
+ </div>
 </footer>
 
-
 <script>
-
-let currentLanguage = "en";
-
-function toggleLanguage(){
-
-    currentLanguage =
-        currentLanguage === "en" ? "zh" : "en";
-
-    document.querySelectorAll("[data-en]").forEach(function(element){
-
-        element.innerHTML =
-            element.getAttribute("data-" + currentLanguage);
-
-    });
-
-    document.getElementById("langBtn").innerText =
-        currentLanguage === "en" ? "中文" : "English";
-
-    document.documentElement.lang =
-        currentLanguage === "en" ? "en" : "zh-CN";
+let zh=false;
+const btn=document.getElementById('langBtn');
+function setLang(){
+  document.querySelectorAll('[data-en][data-zh]').forEach(el=>{
+    el.innerHTML=zh?el.getAttribute('data-zh'):el.getAttribute('data-en');
+  });
+  btn.textContent=zh?'English':'中文';
+  document.documentElement.lang=zh?'zh-CN':'en';
 }
-
+btn.addEventListener('click',()=>{zh=!zh;setLang()});
 </script>
-
-
 </body>
-
 </html>

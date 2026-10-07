@@ -111,6 +111,20 @@ footer{background:#0f1722;color:#b9c2ce;padding:32px 0}
 .footer-small{font-size:12px;color:#8793a2;margin-top:5px}
 .social{color:#d3dae2;font-size:13px}
 
+
+.product-link{display:block;color:inherit;position:relative;padding-bottom:52px}
+.product-link .card-more{position:absolute;left:25px;bottom:22px;color:var(--red);font-size:12px;font-weight:800;letter-spacing:.4px}
+.product-link:hover .card-more{letter-spacing:.8px}
+.contact-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:stretch}
+.contact-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:28px;box-shadow:var(--shadow)}
+.qr-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:20px}
+.qr-card{border:1px solid var(--line);border-radius:8px;padding:18px;text-align:center;background:#fff}
+.qr-card img{width:150px;height:150px;object-fit:contain;display:block;margin:0 auto 12px}
+.qr-card strong{display:block;font-size:15px;color:#1c2a3a;margin-bottom:5px}
+.qr-card span{font-size:12px;color:var(--muted)}
+.instagram-link{color:var(--red);font-weight:800}
+@media(max-width:850px){.contact-grid{grid-template-columns:1fr}.qr-grid{grid-template-columns:1fr 1fr}}
+
 /* MOBILE */
 .mobile-menu{display:none}
 @media(max-width:1050px){
@@ -188,10 +202,10 @@ footer{background:#0f1722;color:#b9c2ce;padding:32px 0}
    <p class="lead" data-en="Different tonnage ranges for laboratory testing, product development, sample making, small-batch production and industrial manufacturing." data-zh="覆盖实验测试、产品开发、打样、小批量生产及工业化生产的不同吨位需求。">Different tonnage ranges for laboratory testing, product development, sample making, small-batch production and industrial manufacturing.</p>
   </div>
   <div class="product-grid">
-   <article class="product"><div class="product-top"><div class="ton">50T</div><div class="tag" data-en="EXPERIMENTAL" data-zh="实验型">EXPERIMENTAL</div></div><h3 data-en="Laboratory & Sample Testing" data-zh="实验室与打样测试">Laboratory & Sample Testing</h3><p data-en="Experimental hydraulic press for laboratory use, product development, sample making and forming tests." data-zh="实验型液压机，用于实验室、产品研发、打样及成型测试。">Experimental hydraulic press for laboratory use, product development, sample making and forming tests.</p></article>
+   <a class="product product-link" href="products/50t.html"><div class="product-top"><div class="ton">50T</div><div class="tag" data-en="EXPERIMENTAL" data-zh="实验型">EXPERIMENTAL</div></div><h3 data-en="Laboratory & Sample Testing" data-zh="实验室与打样测试">Laboratory & Sample Testing</h3><p data-en="Experimental hydraulic press for laboratory use, product development, sample making and forming tests." data-zh="实验型液压机，用于实验室、产品研发、打样及成型测试。">实验型液压机，用于实验室、产品研发、打样及成型测试。</p><span class="card-more" data-en="View details →" data-zh="查看详情 →">View details →</span></a>
    <article class="product"><div class="product-top"><div class="ton">150T</div><div class="tag" data-en="STANDARD" data-zh="标准型">STANDARD</div></div><h3 data-en="Flexible Production" data-zh="灵活生产">Flexible Production</h3><p data-en="Small and medium-sized hydraulic press for efficient pressing and flexible production. Lower mold and tooling investment for a wide range of applications." data-zh="中小型液压机，适用于高效压制和灵活生产，模具及工装投入较低，可覆盖多种应用。">Small and medium-sized hydraulic press for efficient pressing and flexible production. Lower mold and tooling investment for a wide range of applications.</p></article>
-   <article class="product"><div class="product-top"><div class="ton">200T–400T</div><div class="tag" data-en="FRAME / 4-COLUMN" data-zh="框架型 / 四柱型">FRAME / 4-COLUMN</div></div><h3 data-en="General Industrial Forming" data-zh="通用工业成型">General Industrial Forming</h3><p data-en="Versatile hydraulic press for ceramics, powder pressing, metal forming and other industrial applications." data-zh="多用途液压机，适用于陶瓷、粉末压制、金属成型及其他工业应用。">Versatile hydraulic press for ceramics, powder pressing, metal forming and other industrial applications.</p></article>
-   <article class="product"><div class="product-top"><div class="ton">500T–800T</div><div class="tag" data-en="4-COLUMN" data-zh="四柱型">4-COLUMN</div></div><h3 data-en="Heavy-Duty Forming" data-zh="重型成型">Heavy-Duty Forming</h3><p data-en="Heavy-duty hydraulic press for large forming applications and demanding production processes." data-zh="重型液压机，适用于大型成型产品及高要求生产工艺。">Heavy-duty hydraulic press for large forming applications and demanding production processes.</p></article>
+   <article class="product"><div class="product-top"><div class="ton">200T–400T</div><div class="tag" data-en="FRAME / COLUMN TYPE" data-zh="框架型 + 立柱型">FRAME / 4-COLUMN</div></div><h3 data-en="General Industrial Forming" data-zh="通用工业成型">General Industrial Forming</h3><p data-en="Versatile hydraulic press for ceramics, powder pressing, metal forming and other industrial applications." data-zh="多用途液压机，适用于陶瓷、粉末压制、金属成型及其他工业应用。">Versatile hydraulic press for ceramics, powder pressing, metal forming and other industrial applications.</p></article>
+   <article class="product"><div class="product-top"><div class="ton">500T–800T</div><div class="tag" data-en="COLUMN TYPE" data-zh="立柱型">4-COLUMN</div></div><h3 data-en="Heavy-Duty Forming" data-zh="重型成型">Heavy-Duty Forming</h3><p data-en="Heavy-duty hydraulic press for large forming applications and demanding production processes." data-zh="重型液压机，适用于大型成型产品及高要求生产工艺。">Heavy-duty hydraulic press for large forming applications and demanding production processes.</p></article>
    <article class="product"><div class="product-top"><div class="ton">Hydroforming<br>& Die Casting</div><div class="tag" data-en="SPECIAL FORMING" data-zh="特殊成型">SPECIAL FORMING</div></div><h3 data-en="Hydroforming & Die Casting" data-zh="水涨机与压铸机">Hydroforming & Die Casting</h3><p data-en="Equipment solutions for hydroforming, tube forming and die casting applications, with customized configurations for specialized production needs." data-zh="适用于水涨成型、管材成型及压铸等特殊工艺，并可根据生产需求提供定制化设备方案。">Equipment solutions for hydroforming, tube forming and die casting applications, with customized configurations for specialized production needs.</p></article>
   </div>
  </div>
@@ -234,6 +248,32 @@ footer{background:#0f1722;color:#b9c2ce;padding:32px 0}
  </div>
 </section>
 
+<section class="section" id="contact-methods">
+ <div class="container">
+  <div class="section-head">
+   <div class="mini" data-en="CONTACT & VIDEO" data-zh="联系与视频">CONTACT & VIDEO</div>
+   <h2 data-en="Talk to <span class='red'>Ben.</span>" data-zh="联系<span class='red'>Ben</span>">Talk to <span class="red">Ben.</span></h2>
+   <p class="lead" data-en="Scan the QR code to contact us directly, or watch our hydraulic press videos on Instagram." data-zh="可扫描二维码直接联系我们，也可以前往 Instagram 查看我们的液压机运行视频。">Scan the QR code to contact us directly, or watch our hydraulic press videos on Instagram.</p>
+  </div>
+  <div class="contact-grid">
+   <div class="contact-card">
+    <h3 data-en="Direct Contact" data-zh="直接联系">Direct Contact</h3>
+    <p class="lead" data-en="WeChat and WhatsApp are available for product discussions, drawings, samples and quotation requests." data-zh="可通过微信或 WhatsApp 沟通产品、图纸、样品及报价需求。">WeChat and WhatsApp are available for product discussions, drawings, samples and quotation requests.</p>
+    <div class="qr-grid">
+     <div class="qr-card"><img src="images/wechat-qr.png" alt="Heroseong WeChat QR Code"><strong data-en="WeChat" data-zh="微信">WeChat</strong><span data-en="Scan to add us" data-zh="扫码添加我们">Scan to add us</span></div>
+     <div class="qr-card"><img src="images/whatsapp-qr.png" alt="Ben WhatsApp QR Code"><strong>WhatsApp</strong><span data-en="Scan to contact Ben" data-zh="扫码联系 Ben">Scan to contact Ben</span></div>
+    </div>
+   </div>
+   <div class="contact-card">
+    <h3 data-en="Watch Our Videos" data-zh="观看设备视频">Watch Our Videos</h3>
+    <p class="lead" data-en="See hydraulic presses in operation and explore our latest equipment videos." data-zh="观看液压机实际运行视频，了解我们的最新设备。">See hydraulic presses in operation and explore our latest equipment videos.</p>
+    <p style="margin-top:25px"><a class="instagram-link" href="https://www.instagram.com/heroseong/reels/" target="_blank" rel="noopener" data-en="▶ Watch Heroseong on Instagram" data-zh="▶ 在 Instagram 观看豪杰晟视频">▶ Watch Heroseong on Instagram</a></p>
+    <p style="font-size:13px;color:var(--muted);line-height:1.7" data-en="Product videos, machine operation and application examples." data-zh="设备视频、机器运行及应用案例。">Product videos, machine operation and application examples.</p>
+   </div>
+  </div>
+ </div>
+</section>
+
 <section class="cta" id="contact">
  <div class="container">
   <h2 data-en="Have a Product to Form?" data-zh="您有需要成型的产品吗？">Have a Product to Form?</h2>
@@ -245,7 +285,7 @@ footer{background:#0f1722;color:#b9c2ce;padding:32px 0}
 <footer>
  <div class="container footer-row">
   <div><div class="footer-brand">HAO JIE SHENG TECHNOLOGY</div><div class="footer-small">Foshan Hao Jie Sheng Technology Co., Ltd.</div></div>
-  <div class="social">Email: gn001dben@gmail.com &nbsp; | &nbsp; Instagram: @heroseong</div>
+  <div class="social">Email: gn001dben@gmail.com &nbsp; | &nbsp; <a href="https://www.instagram.com/heroseong/reels/" target="_blank" rel="noopener" style="color:inherit">Instagram: @heroseong</a></div>
  </div>
 </footer>
 

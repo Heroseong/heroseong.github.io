@@ -1,2 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://heroseong.github.io/</loc></url><url><loc>https://heroseong.github.io/applications/industry.html</loc></url><url><loc>https://heroseong.github.io/products/50t.html</loc></url><url><loc>https://heroseong.github.io/products/150t.html</loc></url><url><loc>https://heroseong.github.io/products/200-400t.html</loc></url><url><loc>https://heroseong.github.io/products/500-800t.html</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://heroseong.github.io/</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://heroseong.github.io/applications/industry.html</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://heroseong.github.io/products/50t.html</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://heroseong.github.io/products/150t.html</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://heroseong.github.io/products/200-400t.html</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://heroseong.github.io/products/500-800t.html</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+</urlset>
